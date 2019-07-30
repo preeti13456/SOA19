@@ -1,0 +1,10 @@
+T = input()
+while(T):
+    X,Y,K = map(T,input().split())
+    r = (X+Y)//K
+    if(r%2 == 0):
+        print("chef")
+    else:
+        print("paja")
+T -= 1        
+        
